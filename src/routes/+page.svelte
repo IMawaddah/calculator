@@ -1,2 +1,30 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+  <title>
+    آلة حاسبة
+  </title>
+</svelte:head>
+
+
+  <div class="bg-white h-fit w-fit rounded-3xl grid grid-cols-4 gap-2">
+    <button>%</button>
+    <button>&radic;</button>
+    <button>CE</button>
+    <button>C</button>
+    <button>7</button>
+    <button>8</button>
+    <button>9</button>
+    <button>-</button>
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+    <button >÷</button>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>X</button>
+    <button>.</button>
+    <button>0</button>
+    <button>=</button>
+    <button>+</button>
+  </div> 
+

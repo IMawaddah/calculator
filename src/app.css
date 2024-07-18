@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button{
+    @apply bg-violet-300 h-16 w-16 rounded-full;
+}
