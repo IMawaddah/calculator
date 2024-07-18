@@ -5,3 +5,7 @@
 button{
     @apply bg-violet-300 h-20 w-20 rounded-full text-center text-purple-500 shadow-md ;
 }
+
+body{
+    font-family: "DM Serif Display", serif;
+}
