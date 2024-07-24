@@ -38,7 +38,7 @@
       output?.classList.add("bg-red-500");
       setTimeout(() => {
         output?.classList.remove("bg-red-500");
-      }, 6000); 
+      }, 600); 
     }
   }
 </script>
