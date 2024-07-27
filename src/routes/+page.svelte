@@ -44,10 +44,14 @@
       equation = answer;
     } catch (error) {
       let output = document.getElementById("output");
-      output?.classList.add("bg-red-500");
+      output?.classList.add("!bg-red-500");
       setTimeout(() => {
-        output?.classList.remove("bg-red-500");
+        output?.classList.remove("!bg-red-500");
       }, 600);
+      setTimeout(() => {
+      //@ts-ignore
+      document.activeElement?.blur();
+    }, 600);
     }
   }
 
@@ -144,7 +148,7 @@
     on:click={() => addToEquation("0")}
     class="col-span-2 w-full flex items-center px-6 mb-2">0</button
   >
-  <button on:click={() => solve()} class="bg-violet-900 text-white">
+  <button id='=' on:click={() => solve()} class="bg-violet-900 text-white">
     <!-- equality icon -->
     <Equalityicon />
   </button>
