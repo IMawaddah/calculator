@@ -40,7 +40,7 @@
   function solve() {
     try {
       let answer = eval(equation);
-      if (answer == undefined) throw SyntaxError;
+      if (answer == undefined || answer == Infinity ) throw SyntaxError;
       equation = answer;
     } catch (error) {
       let output = document.getElementById("output");
