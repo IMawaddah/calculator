@@ -2,6 +2,10 @@
 
 A clean, responsive calculator web app built with **SvelteKit**, **TypeScript** and **Tailwind CSS**. The interface title is in Arabic (آلة حاسبة).
 
+<p align="center">
+  <img src="docs/screenshot.png" alt="Calculator screenshot" width="320">
+</p>
+
 ## Features
 
 - Basic operations: addition, subtraction, multiplication, division and percentage
@@ -41,6 +45,7 @@ Open `http://localhost:5173` in your browser.
 src/
 ├── lib/Icons/       # SVG icon components for the operator buttons
 └── routes/          # +layout.svelte and +page.svelte (the calculator)
+docs/                # README screenshot
 static/              # Sound effect, favicon and images
 todolist/            # A separate small SvelteKit to-do app kept in this repository
 ```
